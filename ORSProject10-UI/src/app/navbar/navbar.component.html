@@ -96,7 +96,49 @@
           </a>
         </div>
         </li>
+
+
+        <!------------------- STAFF ----------------------->
       
+<li class="nav-item dropdown" style="padding-left: 5px">
+        <a class="nav-link dropdown-toggle" [routerLink]="['/#']" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <font style="color: white">{{"Staff" | translate }}</font>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" [routerLink]="['/staff']"><i class="fa fa-cart"></i> &nbsp;
+            {{ "Add STAFF" | translate }}</a>
+          <a class="dropdown-item" [routerLink]="['/stafflist']"><i class="fa fa-cartlist"></i> &nbsp;
+            {{ "STAFF LIST" | translate }}
+          </a>
+        </div>
+        </li>
+      
+
+
+
+
+
+
+         <!------------------- payment ----------------------->
+      
+<li class="nav-item dropdown" style="padding-left: 5px">
+        <a class="nav-link dropdown-toggle" [routerLink]="['/#']" id="navbarDropdown" role="button"
+          data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <font style="color: white">{{"Payment" | translate }}</font>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" [routerLink]="['/payment']"><i class="fa fa-cart"></i> &nbsp;
+            {{ "Add PAYMENT" | translate }}</a>
+          <a class="dropdown-item" [routerLink]="['/paymentlist']"><i class="fa fa-cartlist"></i> &nbsp;
+            {{ "PAYMENT LIST" | translate }}
+          </a>
+        </div>
+        </li>
+
+
+
+
 
       <!-- =================================== CUSTOMER =========================================== -->
 

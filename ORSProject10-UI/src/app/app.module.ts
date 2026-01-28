@@ -57,6 +57,10 @@ import { CustomerComponent } from './customer/customer.component';
 import { CustomerlistComponent } from './customer/customer-list.component';
 import { OrderComponent } from './order/order.component';
 import { OrderlistComponent } from './order/orderlist.component';
+import { StaffComponent } from './staff/staff.component';
+import { StafflistComponent } from './staff/stafflist.component';
+import { PaymentComponent } from './payment/payment.component';
+import { PaymentlistComponent } from './payment/paymentlist.component';
 
 
 
@@ -116,6 +120,10 @@ export function myHttpLoader(http: HttpClient) {
     CustomerlistComponent,
     OrderComponent,
     OrderlistComponent,
+    StaffComponent,
+    StafflistComponent,
+    PaymentComponent,
+    PaymentlistComponent,
     
  
 
